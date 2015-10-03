@@ -1,6 +1,6 @@
 # TypescriptRefactorer
 
-I think converting javascript projects to typescript projects could be made easier by creating a tool that runs the project in a browser, logging the types of the variables used, then asserting that they are of a particular type, and if so, emmiting typescript.
+I think converting javascript projects to typescript projects could be made easier by creating a tool that runs the project with a debugger logging the types of the variables used, or parsing functions, then asserting that they are of a particular type, and if so, emmiting typescript.
 
 So javascript: `var a = 5;`
 turns into `var a: number = 4;`
