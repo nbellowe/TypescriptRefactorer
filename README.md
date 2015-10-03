@@ -15,9 +15,9 @@ interface A {
   B: number
 }
 
- {B: 3}//#ASSERT IS A
- {B: "s"}//#ASSERT IS NOT A
- {}//#ASSERT IS NOT A
+{B: 3}//#ASSERT IS A
+{B: "s"}//#ASSERT IS NOT A
+{}//#ASSERT IS NOT A
 
-``
+```
 
